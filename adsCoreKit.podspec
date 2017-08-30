@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'adsCoreKit'
-s.version          = '0.0.1'
+s.version          = '0.0.6'
 s.summary          = 'ios 项目核心组件'
 
 s.description      = <<-DESC
