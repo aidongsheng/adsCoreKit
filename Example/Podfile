@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'adsCoreKit_Example' do
+  pod 'adsCoreKit', :path => '../'
+
+  target 'adsCoreKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
