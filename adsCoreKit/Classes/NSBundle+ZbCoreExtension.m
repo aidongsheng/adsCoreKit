@@ -22,5 +22,6 @@
 + (NSURL *)zbcore_LibraryBundleURL: (NSString *)bundleName forClass: (Class)bundleClass{
     NSBundle *bundle = [NSBundle bundleForClass:bundleClass];
     return [bundle URLForResource: bundleName withExtension:@"bundle"];
+    
 }
 @end

@@ -1,0 +1,43 @@
+{
+  "name": "adsCoreKit",
+  "version": "0.0.6",
+  "summary": "ios 项目核心组件",
+  "description": "TODO: 项目核心组件，包括网络、自定义UI控件、UI控件字体、颜色、日期处理器等等",
+  "homepage": "https://github.com/aidongsheng/adsCoreKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aidongsheng": "coding_ai@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/aidongsheng/adsCoreKit.git",
+    "tag": "0.0.6"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "prefix_header_contents": "#import \"adsCoreKitHeader.h\"",
+  "source_files": "adsCoreKit/Classes/**/*.{h,m}",
+  "dependencies": {
+    "pop": [
+      "~> 1.0.10"
+    ],
+    "YYKit": [
+      "~> 1.0.9"
+    ],
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "UITableView+FDTemplateLayoutCell": [
+      "~> 1.6"
+    ],
+    "MJRefresh": [
+      "~> 3.1.12"
+    ],
+    "Masonry": [
+      "~> 1.0.2"
+    ]
+  }
+}

@@ -14,6 +14,11 @@ s.source           = { :git => 'https://github.com/aidongsheng/adsCoreKit.git', 
 
 s.ios.deployment_target = '8.0'
 
+
+s.prefix_header_contents = <<-EOS
+    #import "adsCoreKitHeader.h"
+EOS
+
 s.source_files = 'adsCoreKit/Classes/**/*.{h,m}'
 
 s.dependency 'pop', '~> 1.0.10'
